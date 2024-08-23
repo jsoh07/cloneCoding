@@ -1,40 +1,53 @@
 .container {
+    /* 큰 틀로 나눌 영역들을 가로로 배치 */
     display: flex;
     flex-direction: row;
     background-color: #fff;
+    /* 가로로 영역 모두 차지 */
     width: 100dvw;
+    /* 세로로 영역 모두 차지 */
     height: 100dvh;
 }
-.left {
+.left{
+    /* 화면 반반 차지 */
     flex: 1;
+    /* 각각의 영역으로 구분 */
     display: flex;
+    /* 가로, 세로 모두 가운데  */
     justify-content: center;
     align-items: center;
 }
-.right {
+.right{
+    /* 화면 반반 차지 */
     flex: 1;
+    /* 각각의 영역으로 구분 */
     display: flex;
+    /* column일때는 justify-content가 세로로 가운데 */
     flex-direction: column;
+    /* 가로, 세로 모두 가운데 */
     justify-content: center;
 }
-.right h1 {
+
+.right h1{
+    /* 폰트 굵기 */
     font-weight: bold;
+    /* 폰트 크기 */
     font-size: 64px;
+    /* 엘리먼트 사이 상하, 좌우 간격 */
     margin: 48px 0;
 }
-.right h2 {
+.right h2{
     font-weight: bold;
     font-size: 31px;
     margin-bottom: 32px;
 }
-.right h3 {
+.right h3{
     font-weight: bold;
     font-size: 17px;
     margin-bottom: 20px;
     margin-top: 40px;
 }
-
-.signup {
+.signup{
     width: 300px;
     height: 40px;
     border-radius: 20px;
@@ -47,10 +60,10 @@
     align-items: center;
     justify-content: center;
 }
-.signup:hover {
+.signup:hover{
     background-color: rgb(26, 140, 216);
 }
-.login {
+.login{
     width: 300px;
     height: 40px;
     border-radius: 20px;
@@ -62,6 +75,6 @@
     align-items: center;
     justify-content: center;
 }
-.login:hover {
-    background-color: rgba(29,155,240,0.1);
+.login:hover{
+    background-color: rgb(29, 155, 240, 0.1);
 }
