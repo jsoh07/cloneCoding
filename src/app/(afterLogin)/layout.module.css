@@ -12,7 +12,6 @@
 }
 
 .leftSection {
-    background-color: orange;
     width: 275px;
     height: 100dvh;
 }
@@ -79,7 +78,6 @@
 }
 
 .rightSectionInner {
-    background-color:blueviolet;
     height: 100%;
     width: 990px;
     display: flex;
@@ -87,13 +85,11 @@
 }
 
 .main {
-    background-color:aqua;
     width: 600px;
     height: 200dvh;
 }
 
 .rightSection {
-    background-color:brown;
     width: 350px;
     height: 100%;
 }
