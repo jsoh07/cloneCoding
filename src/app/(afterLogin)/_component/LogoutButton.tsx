@@ -4,9 +4,9 @@ import style from "./logoutButton.module.css";
 
 export default function LogoutButton() {
   const me = { // 임시로 내 정보 있는것처럼
-    id: 'zerohch0',
-    nickname: '제로초',
-    image: '/5Udwvqim.jpg',
+    id: 'jsoh07',
+    nickname: '5hjae',
+    image: '/bucheon.png',
   }
 
   const onLogout = () => {};

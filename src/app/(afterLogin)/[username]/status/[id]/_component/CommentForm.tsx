@@ -10,8 +10,8 @@ export default function CommentForm() {
   const onSubmit = () => {}
   const onChange = () => {}
   const me = {
-    id: 'zerohch0',
-    image: '/5Udwvqim.jpg'
+    id: 'jsoh07',
+    image: '/bucheon.png'
   };
 
   return (

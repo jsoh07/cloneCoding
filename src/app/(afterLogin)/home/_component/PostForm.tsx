@@ -7,8 +7,8 @@ export default function PostForm() {
   const imageRef = useRef<HTMLInputElement>(null);
   const [content, setContent] = useState('');
   const me = {
-    id: 'zerohch0',
-    image: '/5Udwvqim.jpg'
+    id: 'jsoh07',
+    image: '/bucheon.png'
   };
 
   const onChange: ChangeEventHandler<HTMLTextAreaElement> = (e) => {
